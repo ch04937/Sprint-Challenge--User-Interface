@@ -144,3 +144,103 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+.lambda-img{
+    margin-right: 40px;
+}
+.jumbo-img{
+    margin-bottom: 40px;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 35px;
+}
+  
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+  
+header nav a:first-child {
+    margin-left: 0;
+}
+  
+header nav a:last-child {
+    margin-right: 0;
+}
+.about{
+    margin-bottom: 20px;
+}
+  
+.content{
+    display:flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.body-content{
+    display:flex;
+    width:45%;
+    height: 30%;
+    flex-wrap: wrap;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+button{
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left:10px;
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    
+}
+.work-together{
+    margin-bottom: 40px;
+}
+#box1{
+    background: rgb(50, 167, 147)
+}
+#box2{
+    background: rgb(228, 228, 72)
+}
+#box3{
+    background: rgb(159, 247, 235)
+}
+#box4{
+    background: rgb(224, 135, 83)
+}
+#box5{
+    background: red
+}
+#box6{
+    background: rgb(2, 156, 2)
+}
+#box7{
+    background: purple
+}
+#box8{
+    background: rgb(226, 122, 140)
+}
+#box9{
+    background: rgb(80, 2, 80)
+}
+#box10{
+    background: rgb(0, 91, 196)
+}
